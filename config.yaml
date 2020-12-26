@@ -32,13 +32,13 @@ monitors:
     - id: mail_service_server
     name: Mails MattDev
     url: 'mail.mattdev.fr'
-    method: PING
+    method: GET
     expectStatus: 200
     
     - id: ftp_service_server
     name: FTP MattDev
     url: 'ftp.mattdev.fr'
-    method: PING
+    method: GET
     expectStatus: 200
 
 
