@@ -1,17 +1,17 @@
 settings:
-  title: 'Status Page'
+  title: 'MattDev'
   url: 'https://status-page.eidam.dev' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: false # experimental feature, enable only for <5 monitors or on paid plans
 
-  allmonitorsOperational: 'All Systems Operational'
-  notAllmonitorsOperational: 'Not All Systems Operational'
-  monitorLabelOperational: 'Operational'
-  monitorLabelNotOperational: 'Not Operational'
-  monitorLabelNoData: 'No data'
-  dayInHistogramNoData: 'No data'
-  dayInHistogramOperational: 'All good'
+  allmonitorsOperational: 'Tous les systèmes sont opérationnels'
+  notAllmonitorsOperational: 'Nous rencontrons des problèmes'
+  monitorLabelOperational: 'Operationnel'
+  monitorLabelNotOperational: 'En panne'
+  monitorLabelNoData: 'Données indisponibles'
+  dayInHistogramNoData: 'Pas de données'
+  dayInHistogramOperational: 'Tout va bien !'
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
